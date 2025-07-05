@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 3 - Lab</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #c2e59c, #64b3f4);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      width: 400px;
+      animation: fadeIn 0.7s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h2 {
+      text-align: center;
+      color: #2e7d32;
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1.5px solid #a5d6a7;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    input[type="number"]:focus {
+      border-color: #388e3c;
+      outline: none;
+      box-shadow: 0 0 8px rgba(56, 142, 60, 0.3);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #388e3c;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #1b5e20;
+      transform: scale(1.03);
+    }
+
+    .footer-note {
+      text-align: center;
+      margin-top: 20px;
+      color: #444;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Step 3: Lab Marks</h2>
+    <form action="/submit" method="POST">
+      <input name="labMarks" type="number" placeholder="Full Stack Lab" required>
+      <input name="labMarks" type="number" placeholder="C# & .NET Lab" required>
+      <input name="labMarks" type="number" placeholder="PHP & MySQL Lab" required>
+      <input name="labMarks" type="number" placeholder="UI/UX Lab" required>
+      <button type="submit">Submit ✅</button>
+    </form>
+    <div class="footer-note">
+      Make sure your entries are correct before submitting.
+    </div>
+  </div>
+</body>
+</html>

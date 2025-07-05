@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Quiz Marksheet</h1>
+  <img src="<%= student.photo %>" class="profile">
+  <h3>Name: <%= student.name %></h3>
+  <p>Roll: <%= student.roll %></p>
+  <p>Mobile: <%= student.mobile %></p>
+  <p>Email: <%= student.email %></p>
+  <h2>Course: <%= student.course.toUpperCase() %></h2>
+  <hr>
+  <h1>Score: <%= score %> / <%= total %></h1>
+  <button onclick="window.print()" class="btn">Download Marksheet</button>
+</div>
+</body>
+</html>

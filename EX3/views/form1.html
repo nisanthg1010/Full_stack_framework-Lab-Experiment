@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 1 - Student Info</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      width: 420px;
+      animation: popIn 0.5s ease-out;
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    h2 {
+      text-align: center;
+      color: #d45d00;
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="file"],
+    input[name="roll"],
+    input[name="contact"],
+    input[name="college"],
+    input[name="degree"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1.5px solid #f8bb9f;
+      border-radius: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #d45d00;
+      outline: none;
+      box-shadow: 0 0 8px rgba(212, 93, 0, 0.3);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #d45d00;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #963a00;
+      transform: scale(1.03);
+    }
+
+    .note {
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Step 1: Student Info</h2>
+    <form action="/form2" method="POST" enctype="multipart/form-data">
+      <input name="name" type="text" placeholder="Name" required>
+      <input name="roll" type="text" placeholder="Roll No" required>
+      <input name="email" type="email" placeholder="Email" required>
+      <input name="contact" type="text" placeholder="Contact" required>
+      <input name="college" type="text" placeholder="College" required>
+      <input name="degree" type="text" placeholder="Degree" required>
+      <input name="photo" type="file" accept="image/*" required>
+      <button type="submit">Next ➡️</button>
+    </form>
+    <div class="note">All fields are mandatory.</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the fundamental structure of a blockchain?",
+    "options": ["Chain of databases", "Linked list", "Chain of blocks", "Tree structure"],
+    "answer": "Chain of blocks"
+  },
+  {
+    "question": "Which of the following is a popular cryptocurrency?",
+    "options": ["Bitcoin", "Netcoin", "CyberCash", "DigiPay"],
+    "answer": "Bitcoin"
+  },
+  {
+    "question": "What ensures data immutability in a blockchain?",
+    "options": ["Encryption", "Hashing", "Digital Signature", "Timestamp"],
+    "answer": "Hashing"
+  },
+  {
+    "question": "Which consensus algorithm does Bitcoin use?",
+    "options": ["Proof of Work", "Proof of Stake", "Byzantine Fault Tolerance", "Proof of Authority"],
+    "answer": "Proof of Work"
+  },
+  {
+    "question": "What is a 'block' in blockchain?",
+    "options": ["An encrypted file", "A data structure containing transactions", "A node", "A type of wallet"],
+    "answer": "A data structure containing transactions"
+  },
+  {
+    "question": "Which programming language is commonly used for Ethereum smart contracts?",
+    "options": ["Java", "Python", "Solidity", "C++"],
+    "answer": "Solidity"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of blockchain?",
+    "options": ["Decentralized", "Mutable", "Transparent", "Secure"],
+    "answer": "Mutable"
+  },
+  {
+    "question": "Which blockchain concept is responsible for linking blocks together?",
+    "options": ["Public key", "Hash pointer", "Smart contract", "Digital signature"],
+    "answer": "Hash pointer"
+  },
+  {
+    "question": "What is a 'wallet' in blockchain?",
+    "options": ["An encryption algorithm", "A hardware device", "A digital tool for managing cryptocurrency keys", "A block validator"],
+    "answer": "A digital tool for managing cryptocurrency keys"
+  },
+  {
+    "question": "Which blockchain network is widely used for smart contracts?",
+    "options": ["Bitcoin", "Ethereum", "Ripple", "Monero"],
+    "answer": "Ethereum"
+  },
+  {
+    "question": "Which one is a type of blockchain network?",
+    "options": ["Public", "Private", "Consortium", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which cryptographic technique ensures block data integrity?",
+    "options": ["Salting", "Hashing", "Encoding", "Encrypting"],
+    "answer": "Hashing"
+  },
+  {
+    "question": "What does 'decentralized' mean in blockchain?",
+    "options": ["One central authority controls everything", "Control is spread across many nodes", "No one controls the system", "Data is stored locally only"],
+    "answer": "Control is spread across many nodes"
+  },
+  {
+    "question": "What happens if one block in a blockchain is tampered with?",
+    "options": ["It affects only that block", "It breaks the entire chain", "Nothing happens", "It creates a new chain"],
+    "answer": "It breaks the entire chain"
+  },
+  {
+    "question": "Which term refers to the process of verifying transactions on a blockchain?",
+    "options": ["Hashing", "Mining", "Tokenizing", "Forking"],
+    "answer": "Mining"
+  },
+  {
+    "question": "What is a smart contract?",
+    "options": ["A legal document", "A self-executing digital contract", "An API service", "A transaction receipt"],
+    "answer": "A self-executing digital contract"
+  },
+  {
+    "question": "Which of these blockchains is designed primarily for digital asset transfer?",
+    "options": ["Ripple", "Ethereum", "Hyperledger", "Bitcoin"],
+    "answer": "Ripple"
+  },
+  {
+    "question": "Which tool allows visualization of Ethereum blockchain transactions?",
+    "options": ["Etherscan", "Blockcheck", "ChainLink", "NetScan"],
+    "answer": "Etherscan"
+  },
+  {
+    "question": "What does 'fork' mean in blockchain?",
+    "options": ["Combining two blockchains", "A software update that splits the chain", "A wallet address", "Encrypting a block"],
+    "answer": "A software update that splits the chain"
+  },
+  {
+    "question": "Which blockchain feature prevents double spending?",
+    "options": ["Hash chaining", "Consensus mechanism", "Smart contract", "Wallet encryption"],
+    "answer": "Consensus mechanism"
+  }
+]

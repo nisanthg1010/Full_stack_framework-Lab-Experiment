@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Home</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>📝 My Blog</h1>
+  <a href="/add" class="add-button">➕ Add New Blog</a>
+  <div class="blog-list">
+    <% blogs.forEach(blog => { %>
+      <div class="blog-card">
+        <h2><a href="/view/<%= blog._id %>"><%= blog.title %></a></h2>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>

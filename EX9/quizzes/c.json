@@ -1,0 +1,103 @@
+[
+  {
+    "question": "Who is known as the father of the C programming language?",
+    "options": ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Guido van Rossum"],
+    "answer": "Dennis Ritchie"
+  },
+  {
+    "question": "Which symbol is used to denote a preprocessor directive in C?",
+    "options": ["$", "@", "#", "%"],
+    "answer": "#"
+  },
+  {
+    "question": "Which function is used to display output in C?",
+    "options": ["printf()", "cout", "display()", "echo()"],
+    "answer": "printf()"
+  },
+  {
+    "question": "Which function is used to accept input from the user in C?",
+    "options": ["scanf()", "cin", "get()", "input()"],
+    "answer": "scanf()"
+  },
+  {
+    "question": "What is the size of an int data type in C (on a 32-bit system)?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "1 byte"],
+    "answer": "4 bytes"
+  },
+  {
+    "question": "Which header file is needed for using printf() and scanf()?",
+    "options": ["stdio.h", "conio.h", "math.h", "stdlib.h"],
+    "answer": "stdio.h"
+  },
+  {
+    "question": "Which of these is a correct comment in C?",
+    "options": ["// comment", "-- comment", "# comment", "/* comment */"],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "What is the correct file extension for C source files?",
+    "options": [".cp", ".cpp", ".java", ".c"],
+    "answer": ".c"
+  },
+  {
+    "question": "Which operator is used to find the remainder in C?",
+    "options": ["%", "/", "//", "**"],
+    "answer": "%"
+  },
+  {
+    "question": "Which of the following is a valid variable declaration in C?",
+    "options": ["int 2number;", "float num-1;", "char name;", "double& x;"],
+    "answer": "char name;"
+  },
+  {
+    "question": "Which loop is guaranteed to run at least once?",
+    "options": ["for", "while", "do-while", "switch"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which statement terminates a loop in C?",
+    "options": ["continue", "exit", "break", "return"],
+    "answer": "break"
+  },
+  {
+    "question": "Which function is used to find the square root in C?",
+    "options": ["sqrt()", "power()", "square()", "abs()"],
+    "answer": "sqrt()"
+  },
+  {
+    "question": "Which header file contains the sqrt() function?",
+    "options": ["math.h", "stdio.h", "conio.h", "stdlib.h"],
+    "answer": "math.h"
+  },
+  {
+    "question": "Which data type is used to store a single character in C?",
+    "options": ["int", "char", "float", "string"],
+    "answer": "char"
+  },
+  {
+    "question": "Which keyword is used to define a constant value in C?",
+    "options": ["const", "final", "fixed", "static"],
+    "answer": "const"
+  },
+  {
+    "question": "Which of these is used to include a library file in C?",
+    "options": ["#include", "import", "using", "require"],
+    "answer": "#include"
+  },
+  {
+    "question": "Which control structure is used for decision making in C?",
+    "options": ["for", "if", "goto", "do-while"],
+    "answer": "if"
+  },
+  {
+    "question": "Which format specifier is used for printing float values?",
+    "options": ["%f", "%d", "%c", "%s"],
+    "answer": "%f"
+  },
+  {
+    "question": "Which keyword is used to declare a function in C?",
+    "options": ["function", "void", "def", "proc"],
+    "answer": "void"
+  }
+]
+

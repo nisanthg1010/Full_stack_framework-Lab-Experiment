@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Data Science primarily concerned with?",
+    "options": ["Data analysis and decision making", "Web designing", "Mechanical Engineering", "App Development"],
+    "answer": "Data analysis and decision making"
+  },
+  {
+    "question": "Which of the following is a key stage in a Data Science project?",
+    "options": ["Data Collection", "Game Testing", "Photo Editing", "Firewall Setup"],
+    "answer": "Data Collection"
+  },
+  {
+    "question": "Which language is most commonly used for Data Science?",
+    "options": ["Python", "C#", "HTML", "PHP"],
+    "answer": "Python"
+  },
+  {
+    "question": "What does EDA stand for in Data Science?",
+    "options": ["Exploratory Data Analysis", "Electronic Data Automation", "Essential Data Algorithms", "Error Detection Analysis"],
+    "answer": "Exploratory Data Analysis"
+  },
+  {
+    "question": "Which of these is a supervised machine learning algorithm?",
+    "options": ["Linear Regression", "K-Means Clustering", "PCA", "Apriori"],
+    "answer": "Linear Regression"
+  },
+  {
+    "question": "Which library is popular for data manipulation in Python?",
+    "options": ["Pandas", "Django", "Flask", "Bootstrap"],
+    "answer": "Pandas"
+  },
+  {
+    "question": "Which visualization library is commonly used in Data Science?",
+    "options": ["Matplotlib", "NumPy", "Requests", "Socket"],
+    "answer": "Matplotlib"
+  },
+  {
+    "question": "What type of problem does classification solve?",
+    "options": ["Predicting discrete categories", "Predicting continuous values", "Compressing images", "Sorting files"],
+    "answer": "Predicting discrete categories"
+  },
+  {
+    "question": "Which metric is commonly used to evaluate classification models?",
+    "options": ["Accuracy", "MAE", "RMSE", "Correlation"],
+    "answer": "Accuracy"
+  },
+  {
+    "question": "Which library is used for scientific computations in Python?",
+    "options": ["NumPy", "Selenium", "BeautifulSoup", "Flask"],
+    "answer": "NumPy"
+  },
+  {
+    "question": "Which of the following handles big data processing?",
+    "options": ["Hadoop", "HTML", "Photoshop", "WordPress"],
+    "answer": "Hadoop"
+  },
+  {
+    "question": "Which of the following is a NoSQL database often used in Data Science?",
+    "options": ["MongoDB", "MySQL", "Oracle", "MS Access"],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "Which term describes the process of cleaning and transforming raw data?",
+    "options": ["Data Preprocessing", "Data Mining", "Data Encryption", "Data Logging"],
+    "answer": "Data Preprocessing"
+  },
+  {
+    "question": "Which of the following is a dimensionality reduction technique?",
+    "options": ["PCA", "KNN", "Linear Regression", "Decision Tree"],
+    "answer": "PCA"
+  },
+  {
+    "question": "Which chart is suitable for displaying parts of a whole?",
+    "options": ["Pie Chart", "Scatter Plot", "Line Graph", "Histogram"],
+    "answer": "Pie Chart"
+  },
+  {
+    "question": "Which machine learning task groups similar data points without labels?",
+    "options": ["Clustering", "Regression", "Classification", "Forecasting"],
+    "answer": "Clustering"
+  },
+  {
+    "question": "Which algorithm is popular for clustering tasks?",
+    "options": ["K-Means", "Linear Regression", "Naive Bayes", "SVM"],
+    "answer": "K-Means"
+  },
+  {
+    "question": "Which statistical measure shows the central value of a dataset?",
+    "options": ["Mean", "Range", "Variance", "Mode"],
+    "answer": "Mean"
+  },
+  {
+    "question": "Which of the following is used to reduce overfitting in a model?",
+    "options": ["Regularization", "Data Duplication", "Increasing features", "Removing test data"],
+    "answer": "Regularization"
+  },
+  {
+    "question": "Which tool is popular for interactive data analysis and notebook-based development?",
+    "options": ["Jupyter Notebook", "PyCharm", "Sublime Text", "Word"],
+    "answer": "Jupyter Notebook"
+  }
+]

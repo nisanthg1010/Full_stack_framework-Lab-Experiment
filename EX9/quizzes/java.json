@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "derives"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which of these is not a Java primitive data type?",
+    "options": ["int", "float", "boolean", "string"],
+    "answer": "string"
+  },
+  {
+    "question": "Which method is the entry point of a Java program?",
+    "options": ["start()", "main()", "run()", "init()"],
+    "answer": "main()"
+  },
+  {
+    "question": "Which package contains the Scanner class in Java?",
+    "options": ["java.util", "java.io", "java.lang", "java.awt"],
+    "answer": "java.util"
+  },
+  {
+    "question": "What is the size of an int data type in Java?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "16 bytes"],
+    "answer": "4 bytes"
+  },
+  {
+    "question": "Which of the following is used to create an object in Java?",
+    "options": ["create", "new", "object", "class"],
+    "answer": "new"
+  },
+  {
+    "question": "Which concept allows a class to have multiple forms?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "answer": "Polymorphism"
+  },
+  {
+    "question": "Which of these access modifiers makes a member visible to all classes?",
+    "options": ["private", "protected", "public", "default"],
+    "answer": "public"
+  },
+  {
+    "question": "Which symbol is used to denote a single-line comment in Java?",
+    "options": ["#", "//", "/*", "<!--"],
+    "answer": "//"
+  },
+  {
+    "question": "Which exception is thrown when a program attempts to divide by zero?",
+    "options": ["IOException", "ArithmeticException", "NullPointerException", "NumberFormatException"],
+    "answer": "ArithmeticException"
+  },
+  {
+    "question": "Which Java feature hides internal details and shows only functionalities?",
+    "options": ["Encapsulation", "Polymorphism", "Inheritance", "Abstraction"],
+    "answer": "Abstraction"
+  },
+  {
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": ["true", "false", "0", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "Which class is the superclass of all classes in Java?",
+    "options": ["Object", "Class", "System", "Main"],
+    "answer": "Object"
+  },
+  {
+    "question": "Which interface provides capability to store objects using key-value pairs?",
+    "options": ["Map", "List", "Set", "Collection"],
+    "answer": "Map"
+  },
+  {
+    "question": "Which keyword is used to prevent inheritance in Java?",
+    "options": ["final", "static", "sealed", "abstract"],
+    "answer": "final"
+  },
+  {
+    "question": "Which method is called automatically when an object is destroyed?",
+    "options": ["finalize()", "destroy()", "delete()", "dispose()"],
+    "answer": "finalize()"
+  },
+  {
+    "question": "Which keyword is used to explicitly throw an exception?",
+    "options": ["throws", "catch", "throw", "final"],
+    "answer": "throw"
+  },
+  {
+    "question": "Which operator is used to compare two values for equality in Java?",
+    "options": ["=", "==", "equals()", "!="],
+    "answer": "=="
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "enhanced for"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which class is used to perform input from the console?",
+    "options": ["BufferedReader", "Scanner", "InputStream", "ConsoleReader"],
+    "answer": "Scanner"
+  }
+]

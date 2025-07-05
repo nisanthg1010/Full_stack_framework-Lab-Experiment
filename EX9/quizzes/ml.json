@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is Machine Learning primarily concerned with?",
+    "options": ["Explicit programming", "Learning from data", "Network management", "Manual data entry"],
+    "answer": "Learning from data"
+  },
+  {
+    "question": "Which of these is a type of supervised learning?",
+    "options": ["Clustering", "Linear Regression", "K-Means", "PCA"],
+    "answer": "Linear Regression"
+  },
+  {
+    "question": "Which of these is an unsupervised learning technique?",
+    "options": ["Decision Tree", "K-Means Clustering", "Logistic Regression", "Linear Regression"],
+    "answer": "K-Means Clustering"
+  },
+  {
+    "question": "Which library is commonly used for data manipulation in Python ML?",
+    "options": ["pandas", "numpy", "matplotlib", "django"],
+    "answer": "pandas"
+  },
+  {
+    "question": "Which algorithm is typically used for classification problems?",
+    "options": ["K-Nearest Neighbors", "K-Means", "Apriori", "PCA"],
+    "answer": "K-Nearest Neighbors"
+  },
+  {
+    "question": "What is overfitting in machine learning?",
+    "options": ["Model performs poorly on training data", "Model performs well on both training and test data", "Model performs too well on training data but poorly on test data", "Model ignores the data"],
+    "answer": "Model performs too well on training data but poorly on test data"
+  },
+  {
+    "question": "Which metric is commonly used to evaluate classification models?",
+    "options": ["Accuracy", "Mean Squared Error", "R-Squared", "Sum of Squares"],
+    "answer": "Accuracy"
+  },
+  {
+    "question": "Which function is used to split data into training and testing sets in sklearn?",
+    "options": ["train_test_split()", "split_data()", "divide_data()", "train_test()"],
+    "answer": "train_test_split()"
+  },
+  {
+    "question": "Which of these is NOT a type of machine learning?",
+    "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Extended Learning"],
+    "answer": "Extended Learning"
+  },
+  {
+    "question": "Which algorithm is best for reducing the dimensionality of data?",
+    "options": ["Decision Tree", "KNN", "PCA", "Logistic Regression"],
+    "answer": "PCA"
+  },
+  {
+    "question": "What is the purpose of a confusion matrix?",
+    "options": ["To calculate MSE", "To display predicted vs actual classifications", "To clean data", "To preprocess data"],
+    "answer": "To display predicted vs actual classifications"
+  },
+  {
+    "question": "Which term refers to the ability of a model to perform well on unseen data?",
+    "options": ["Generalization", "Underfitting", "Overfitting", "Optimization"],
+    "answer": "Generalization"
+  },
+  {
+    "question": "Which technique is used to handle missing data in a dataset?",
+    "options": ["Fill missing values", "Drop rows", "Predict missing values", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which package is commonly used for plotting graphs in Python ML?",
+    "options": ["matplotlib", "seaborn", "both A and B", "django"],
+    "answer": "both A and B"
+  },
+  {
+    "question": "Which model is an example of an ensemble method?",
+    "options": ["Random Forest", "Linear Regression", "K-Means", "PCA"],
+    "answer": "Random Forest"
+  },
+  {
+    "question": "Which of these is used for feature scaling?",
+    "options": ["MinMaxScaler", "train_test_split", "LabelEncoder", "DecisionTree"],
+    "answer": "MinMaxScaler"
+  },
+  {
+    "question": "Which library provides ML tools like RandomForest and SVM in Python?",
+    "options": ["sklearn", "numpy", "os", "flask"],
+    "answer": "sklearn"
+  },
+  {
+    "question": "Which technique is used to combine predictions from multiple models?",
+    "options": ["Stacking", "Splitting", "Clustering", "Normalizing"],
+    "answer": "Stacking"
+  },
+  {
+    "question": "Which of these is a Reinforcement Learning concept?",
+    "options": ["Agent", "Reward", "Environment", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which evaluation metric is used for regression models?",
+    "options": ["Mean Squared Error", "Accuracy", "Precision", "Recall"],
+    "answer": "Mean Squared Error"
+  }
+]
+

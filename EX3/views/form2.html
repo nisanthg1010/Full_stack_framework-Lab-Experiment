@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 2 - Theory</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #d3cce3, #e9e4f0);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      width: 420px;
+      animation: slideUp 0.6s ease-in-out;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      text-align: center;
+      color: #5e35b1;
+      margin-bottom: 25px;
+      font-size: 24px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1.5px solid #d1c4e9;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    input[type="number"]:focus {
+      border-color: #7e57c2;
+      outline: none;
+      box-shadow: 0 0 8px rgba(126, 87, 194, 0.3);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #5e35b1;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #4527a0;
+      transform: scale(1.03);
+    }
+
+    .note {
+      text-align: center;
+      color: #555;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Step 2: Theory Marks</h2>
+    <form action="/form3" method="POST">
+      <input name="theoryMarks" type="number" placeholder="Full Stack" required>
+      <input name="theoryMarks" type="number" placeholder="Data Science" required>
+      <input name="theoryMarks" type="number" placeholder="C# & .NET" required>
+      <input name="theoryMarks" type="number" placeholder="PHP & MySQL" required>
+      <input name="theoryMarks" type="number" placeholder="Blockchain" required>
+      <input name="theoryMarks" type="number" placeholder="OB (Organizational Behaviour)" required>
+      <button type="submit">Next ➡️</button>
+    </form>
+    <div class="note">
+      Please enter all six subject marks before proceeding.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does DevOps primarily aim to improve?",
+    "options": ["Hardware production", "Software delivery speed and quality", "Graphic designing", "Operating systems"],
+    "answer": "Software delivery speed and quality"
+  },
+  {
+    "question": "Which of these is a core principle of DevOps?",
+    "options": ["Waterfall development", "Manual deployment", "Continuous Integration", "Isolated teams"],
+    "answer": "Continuous Integration"
+  },
+  {
+    "question": "Which tool is widely used for Continuous Integration (CI)?",
+    "options": ["Jenkins", "Photoshop", "Postman", "Excel"],
+    "answer": "Jenkins"
+  },
+  {
+    "question": "What is the purpose of version control in DevOps?",
+    "options": ["Track changes in code", "Manage emails", "Edit images", "Create wireframes"],
+    "answer": "Track changes in code"
+  },
+  {
+    "question": "Which tool is a popular version control system?",
+    "options": ["Git", "Slack", "Docker", "Trello"],
+    "answer": "Git"
+  },
+  {
+    "question": "Which of the following is a containerization platform in DevOps?",
+    "options": ["Docker", "Jenkins", "Nagios", "GitHub"],
+    "answer": "Docker"
+  },
+  {
+    "question": "Which DevOps practice ensures new code integrates smoothly into the existing codebase?",
+    "options": ["Continuous Integration", "Manual Deployment", "Patch Testing", "Code Locking"],
+    "answer": "Continuous Integration"
+  },
+  {
+    "question": "What is Continuous Deployment (CD)?",
+    "options": ["Manual code pushing", "Automatic release of validated code to production", "Code rollback", "Unit testing"],
+    "answer": "Automatic release of validated code to production"
+  },
+  {
+    "question": "Which of these tools is used for infrastructure as code (IaC)?",
+    "options": ["Terraform", "Excel", "VS Code", "Photoshop"],
+    "answer": "Terraform"
+  },
+  {
+    "question": "Which cloud platform provides DevOps services like Azure Pipelines?",
+    "options": ["Google Cloud", "Azure", "WAMP", "Tally"],
+    "answer": "Azure"
+  },
+  {
+    "question": "What does CI/CD stand for in DevOps?",
+    "options": ["Continuous Integration/Continuous Deployment", "Cloud Infrastructure/Container Design", "Create Issues/Close Defects", "Continuous Innovation/Continuous Debugging"],
+    "answer": "Continuous Integration/Continuous Deployment"
+  },
+  {
+    "question": "Which DevOps tool is used for automated server monitoring?",
+    "options": ["Nagios", "Excel", "Android Studio", "Wireshark"],
+    "answer": "Nagios"
+  },
+  {
+    "question": "What is the purpose of Docker in DevOps?",
+    "options": ["Manage source code", "Provide consistent environments for applications", "Build web pages", "Edit databases"],
+    "answer": "Provide consistent environments for applications"
+  },
+  {
+    "question": "Which of the following best describes DevOps culture?",
+    "options": ["Strictly hierarchical teams", "Isolated departments", "Collaborative and cross-functional teams", "Long release cycles"],
+    "answer": "Collaborative and cross-functional teams"
+  },
+  {
+    "question": "What is the role of GitHub in DevOps?",
+    "options": ["Cloud storage", "Source code hosting and version control", "UI designing", "Database hosting"],
+    "answer": "Source code hosting and version control"
+  },
+  {
+    "question": "Which command initializes a new Git repository?",
+    "options": ["git start", "git init", "git begin", "git open"],
+    "answer": "git init"
+  },
+  {
+    "question": "Which configuration management tool is popular in DevOps?",
+    "options": ["Ansible", "Photoshop", "MS Word", "Illustrator"],
+    "answer": "Ansible"
+  },
+  {
+    "question": "Which tool is often used for container orchestration?",
+    "options": ["Kubernetes", "Notepad++", "Slack", "Git Bash"],
+    "answer": "Kubernetes"
+  },
+  {
+    "question": "What does 'Infrastructure as Code' (IaC) mean?",
+    "options": ["Manual setup of servers", "Managing infrastructure using code/scripts", "Building GUIs", "Creating databases manually"],
+    "answer": "Managing infrastructure using code/scripts"
+  },
+  {
+    "question": "Which of these is NOT a DevOps tool?",
+    "options": ["Jira", "Git", "Docker", "MS Paint"],
+    "answer": "MS Paint"
+  }
+]

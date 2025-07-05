@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-card {
+  background: white;
+  border: 2px solid #0077cc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  background: #e6f7ff;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-button, .back {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0077cc;
+  text-decoration: none;
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which data structure uses FIFO (First In First Out) ordering?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "question": "Which data structure uses LIFO (Last In First Out) ordering?",
+    "options": ["Queue", "Stack", "Linked List", "Array"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which of the following is a linear data structure?",
+    "options": ["Array", "Graph", "Tree", "Hash Table"],
+    "answer": "Array"
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": ["Queue", "Stack", "Array", "Graph"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which of these is a non-linear data structure?",
+    "options": ["Array", "Linked List", "Tree", "Queue"],
+    "answer": "Tree"
+  },
+  {
+    "question": "Which searching algorithm divides the search interval in half each time?",
+    "options": ["Linear Search", "Binary Search", "Depth First Search", "Breadth First Search"],
+    "answer": "Binary Search"
+  },
+  {
+    "question": "Which data structure is best for implementing priority queues?",
+    "options": ["Array", "Stack", "Heap", "Queue"],
+    "answer": "Heap"
+  },
+  {
+    "question": "Which of the following is a characteristic of a linked list?",
+    "options": ["Fixed size", "Non-contiguous memory", "Random access", "Uses arrays internally"],
+    "answer": "Non-contiguous memory"
+  },
+  {
+    "question": "Which operation is performed at the end of a queue?",
+    "options": ["Dequeue", "Enqueue", "Pop", "Push"],
+    "answer": "Enqueue"
+  },
+  {
+    "question": "In a binary tree, each node has a maximum of how many children?",
+    "options": ["1", "2", "3", "Unlimited"],
+    "answer": "2"
+  },
+  {
+    "question": "Which data structure is suitable for implementing undo features?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which traversal technique visits the root node, then left subtree, then right subtree?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level order"],
+    "answer": "Preorder"
+  },
+  {
+    "question": "Which of these has O(1) time complexity for accessing an element?",
+    "options": ["Array", "Linked List", "Binary Tree", "Queue"],
+    "answer": "Array"
+  },
+  {
+    "question": "Which data structure uses nodes connected by pointers?",
+    "options": ["Array", "Linked List", "Queue", "Stack"],
+    "answer": "Linked List"
+  },
+  {
+    "question": "Which of the following sorting algorithms is NOT a comparison-based sort?",
+    "options": ["Quick Sort", "Merge Sort", "Counting Sort", "Bubble Sort"],
+    "answer": "Counting Sort"
+  },
+  {
+    "question": "Which graph traversal algorithm uses a queue?",
+    "options": ["Depth First Search", "Breadth First Search", "Binary Search", "Linear Search"],
+    "answer": "Breadth First Search"
+  },
+  {
+    "question": "Which data structure allows fast lookup by key?",
+    "options": ["Hash Table", "Array", "Stack", "Linked List"],
+    "answer": "Hash Table"
+  },
+  {
+    "question": "Which sorting technique repeatedly swaps adjacent elements if they are in the wrong order?",
+    "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Selection Sort"],
+    "answer": "Bubble Sort"
+  },
+  {
+    "question": "Which of these is not a tree traversal method?",
+    "options": ["Preorder", "Inorder", "Outorder", "Postorder"],
+    "answer": "Outorder"
+  },
+  {
+    "question": "Which notation represents the worst-case time complexity?",
+    "options": ["Big O", "Theta", "Omega", "Lambda"],
+    "answer": "Big O"
+  }
+]

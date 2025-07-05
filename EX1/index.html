@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fresh Mart - Online Fruits & Veggies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="https://logodix.com/logo/1615997.png" alt="Logo">
+        <h1>Fresh Mart</h1>
+    </div>
+    <p>Your daily dose of fresh fruits and vegetables!</p>
+</header>
+
+<h2 class="category-title">🍎 Fruits</h2>
+<section class="products" id="fruits"></section>
+
+<h2 class="category-title">🥕 Vegetables</h2>
+<section class="products" id="vegetables"></section>
+
+<!-- Modal for product details -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImg" src="" alt="">
+    <h2 id="modalName"></h2>
+    <p id="modalDesc"></p>
+    <p><strong>Quantity Available:</strong> <span id="modalQty"></span> kg</p>
+    <p><strong>Price:</strong> ₹<span id="modalPrice"></span>/kg</p>
+    <p><strong>Rating:</strong> ⭐<span id="modalRating"></span>/5</p>
+  </div>
+</div>
+
+<footer>
+    <h3>📞 Contact: +91 9345292781</h3>
+    <p>📍 Address: 1010 Nisanth , Fresh Market City, Perundurai</p>
+
+    <<iframe
+    src="https://www.google.com/maps?q=Kongu%20Engineering%20College&output=embed"
+    class="map-frame"
+    allowfullscreen=""
+    loading="lazy"></iframe>
+
+    <p class="quote">🌿 "Freshness you can taste, quality you can trust!" 🌿</p>
+    <p>&copy; 2025 Fresh Mart. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

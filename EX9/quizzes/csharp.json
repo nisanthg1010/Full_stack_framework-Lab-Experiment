@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who developed the C# programming language?",
+    "options": ["Microsoft", "Oracle", "Apple", "Google"],
+    "answer": "Microsoft"
+  },
+  {
+    "question": "Which of these is the correct file extension for a C# source file?",
+    "options": [".cs", ".c", ".cpp", ".java"],
+    "answer": ".cs"
+  },
+  {
+    "question": "Which keyword is used to define a class in C#?",
+    "options": ["struct", "class", "define", "package"],
+    "answer": "class"
+  },
+  {
+    "question": "Which of the following is NOT a valid C# data type?",
+    "options": ["int", "char", "string", "real"],
+    "answer": "real"
+  },
+  {
+    "question": "Which method is the entry point of a C# console application?",
+    "options": ["Start()", "Begin()", "Main()", "Init()"],
+    "answer": "Main()"
+  },
+  {
+    "question": "Which access modifier makes a member accessible only within its own class?",
+    "options": ["private", "protected", "public", "internal"],
+    "answer": "private"
+  },
+  {
+    "question": "Which of these is used to handle exceptions in C#?",
+    "options": ["try-catch", "goto", "switch", "loop"],
+    "answer": "try-catch"
+  },
+  {
+    "question": "Which collection in C# stores key-value pairs?",
+    "options": ["ArrayList", "Hashtable", "Queue", "Stack"],
+    "answer": "Hashtable"
+  },
+  {
+    "question": "Which namespace contains the Console class?",
+    "options": ["System", "Collections", "Data", "Drawing"],
+    "answer": "System"
+  },
+  {
+    "question": "What does CLR stand for in C#?",
+    "options": ["Common Language Runtime", "Common Logic Resource", "Console Language Runtime", "Code Language Resource"],
+    "answer": "Common Language Runtime"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in C#?",
+    "options": ["inherits", "extends", "base", ":"],
+    "answer": ":"
+  },
+  {
+    "question": "Which C# concept ensures that derived classes can replace base class methods?",
+    "options": ["Encapsulation", "Polymorphism", "Abstraction", "Inheritance"],
+    "answer": "Polymorphism"
+  },
+  {
+    "question": "Which loop ensures the block runs at least once before checking condition?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which method is used to read input from the console?",
+    "options": ["Console.Read()", "Console.ReadLine()", "Console.Input()", "Console.Get()"],
+    "answer": "Console.ReadLine()"
+  },
+  {
+    "question": "Which data type would you use to store true/false values?",
+    "options": ["bool", "int", "char", "byte"],
+    "answer": "bool"
+  },
+  {
+    "question": "Which of the following is a value type in C#?",
+    "options": ["int", "class", "interface", "delegate"],
+    "answer": "int"
+  },
+  {
+    "question": "Which of these allows storing multiple data elements in a single variable in C#?",
+    "options": ["Array", "Method", "Class", "Namespace"],
+    "answer": "Array"
+  },
+  {
+    "question": "Which access modifier allows members to be accessed from any class?",
+    "options": ["private", "public", "protected", "internal"],
+    "answer": "public"
+  },
+  {
+    "question": "Which keyword is used to define a constant in C#?",
+    "options": ["static", "readonly", "const", "fixed"],
+    "answer": "const"
+  },
+  {
+    "question": "Which feature in C# allows the creation of user-defined datatypes with methods and properties?",
+    "options": ["Class", "Namespace", "Assembly", "Variable"],
+    "answer": "Class"
+  }
+]

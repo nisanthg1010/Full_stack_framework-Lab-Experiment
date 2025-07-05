@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    body {
+      background: url("/images/<%= course %>.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2><%= course.toUpperCase() %> Quiz</h2>
+  <form action="/submit-quiz" method="POST">
+    <% questions.forEach((q, i) => { %>
+      <div class="question">
+        <p><%= i+1 %>. <%= q.question %></p>
+        <% q.options.forEach(opt => { %>
+          <label><input type="radio" name="q<%= i %>" value="<%= opt %>" required> <%= opt %></label><br>
+        <% }) %>
+      </div>
+    <% }) %>
+    <button type="submit" class="btn">Submit Quiz</button>
+  </form>
+</div>
+</body>
+</html>

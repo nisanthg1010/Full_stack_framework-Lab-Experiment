@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first stage of the Design Thinking process?",
+    "options": ["Prototype", "Empathize", "Test", "Define"],
+    "answer": "Empathize"
+  },
+  {
+    "question": "Which stage of Design Thinking involves identifying user needs and challenges?",
+    "options": ["Define", "Test", "Ideate", "Prototype"],
+    "answer": "Define"
+  },
+  {
+    "question": "Which of the following is NOT a principle of Design Thinking?",
+    "options": ["Human-centered", "Iterative", "Linear", "Collaborative"],
+    "answer": "Linear"
+  },
+  {
+    "question": "In which stage are ideas for solutions brainstormed?",
+    "options": ["Prototype", "Ideate", "Test", "Empathize"],
+    "answer": "Ideate"
+  },
+  {
+    "question": "Which of these is a popular brainstorming rule?",
+    "options": ["Criticize ideas early", "Defer judgment", "Focus on one idea only", "Avoid wild ideas"],
+    "answer": "Defer judgment"
+  },
+  {
+    "question": "What does the 'Prototype' stage involve?",
+    "options": ["Finalizing the product", "Testing ideas quickly", "Identifying problems", "Documenting ideas"],
+    "answer": "Testing ideas quickly"
+  },
+  {
+    "question": "Which tool helps visualize the user's experience with a product or service?",
+    "options": ["Gantt chart", "Empathy map", "Entity-relationship diagram", "Histogram"],
+    "answer": "Empathy map"
+  },
+  {
+    "question": "Which activity focuses on understanding the user's perspective?",
+    "options": ["Empathize", "Define", "Prototype", "Test"],
+    "answer": "Empathize"
+  },
+  {
+    "question": "What is the goal of the 'Test' stage?",
+    "options": ["Finalize prototypes", "Test product on random people", "Validate solutions with users", "Stop the design process"],
+    "answer": "Validate solutions with users"
+  },
+  {
+    "question": "Which of these is a mindset encouraged in Design Thinking?",
+    "options": ["Fixed mindset", "Growth mindset", "Negative mindset", "Mechanical mindset"],
+    "answer": "Growth mindset"
+  },
+  {
+    "question": "Which diagram shows how users interact with a system?",
+    "options": ["User Journey Map", "Bar Chart", "Pie Chart", "Data Flow Diagram"],
+    "answer": "User Journey Map"
+  },
+  {
+    "question": "Which phase in Design Thinking allows for iterative learning and adjustment?",
+    "options": ["Define", "Prototype", "Test", "Both B and C"],
+    "answer": "Both B and C"
+  },
+  {
+    "question": "Which quality should a good prototype have?",
+    "options": ["Expensive", "Polished", "Quick and low-cost", "Perfect"],
+    "answer": "Quick and low-cost"
+  },
+  {
+    "question": "Which method involves direct interaction with users to understand their needs?",
+    "options": ["Desk research", "User interview", "Observation", "Surveys"],
+    "answer": "User interview"
+  },
+  {
+    "question": "Which phrase best describes Design Thinking?",
+    "options": ["Problem-focused", "Human-centered problem solving", "Code-based innovation", "Data-centric testing"],
+    "answer": "Human-centered problem solving"
+  },
+  {
+    "question": "Why is empathy important in Design Thinking?",
+    "options": ["To speed up development", "To reduce costs", "To deeply understand user needs", "To manage resources"],
+    "answer": "To deeply understand user needs"
+  },
+  {
+    "question": "Which process is iterative and non-linear in nature?",
+    "options": ["Design Thinking", "Waterfall Model", "Linear Planning", "None of the above"],
+    "answer": "Design Thinking"
+  },
+  {
+    "question": "Which of the following is a deliverable in the 'Define' stage?",
+    "options": ["Problem statement", "Prototype model", "Empathy map", "User journey"],
+    "answer": "Problem statement"
+  },
+  {
+    "question": "Which method is commonly used in the 'Test' stage?",
+    "options": ["User feedback", "Theoretical analysis", "Secondary data review", "Market survey"],
+    "answer": "User feedback"
+  },
+  {
+    "question": "Which famous company popularized Design Thinking in business innovation?",
+    "options": ["Apple", "Google", "IDEO", "Microsoft"],
+    "answer": "IDEO"
+  }
+]

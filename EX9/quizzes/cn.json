@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which device is used to connect different networks together?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "answer": "Router"
+  },
+  {
+    "question": "Which protocol is responsible for reliable data transmission?",
+    "options": ["TCP", "UDP", "IP", "FTP"],
+    "answer": "TCP"
+  },
+  {
+    "question": "What does IP stand for in networking?",
+    "options": ["Internet Provider", "Internet Protocol", "Internal Protocol", "Information Process"],
+    "answer": "Internet Protocol"
+  },
+  {
+    "question": "Which topology has a central node connected to all other nodes?",
+    "options": ["Star", "Ring", "Bus", "Mesh"],
+    "answer": "Star"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for routing?",
+    "options": ["Network", "Data Link", "Application", "Session"],
+    "answer": "Network"
+  },
+  {
+    "question": "Which of the following is a valid IPv4 address?",
+    "options": ["192.168.1.1", "300.500.100.1", "abc.def.ghi.jkl", "192.300.256.1"],
+    "answer": "192.168.1.1"
+  },
+  {
+    "question": "Which command is used to check connectivity between devices?",
+    "options": ["ping", "ipconfig", "netstat", "tracert"],
+    "answer": "ping"
+  },
+  {
+    "question": "Which protocol is connectionless?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
+    "answer": "UDP"
+  },
+  {
+    "question": "Which device operates at the Data Link Layer?",
+    "options": ["Switch", "Router", "Firewall", "Repeater"],
+    "answer": "Switch"
+  },
+  {
+    "question": "Which type of cable is commonly used in LAN?",
+    "options": ["Coaxial", "Fiber Optic", "Twisted Pair", "Serial"],
+    "answer": "Twisted Pair"
+  },
+  {
+    "question": "What does DNS stand for?",
+    "options": ["Dynamic Name Service", "Domain Name System", "Direct Network System", "Data Node Service"],
+    "answer": "Domain Name System"
+  },
+  {
+    "question": "Which protocol is used for sending email?",
+    "options": ["HTTP", "SMTP", "FTP", "SNMP"],
+    "answer": "SMTP"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "High Text Transport Protocol", "Hyper Transfer Text Process", "Host Text Transmission Protocol"],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "question": "Which protocol is used for securely transferring files over a network?",
+    "options": ["FTP", "SFTP", "SNMP", "HTTP"],
+    "answer": "SFTP"
+  },
+  {
+    "question": "Which of the following is a private IP address?",
+    "options": ["10.0.0.1", "172.32.0.1", "192.0.0.1", "8.8.8.8"],
+    "answer": "10.0.0.1"
+  },
+  {
+    "question": "Which tool displays active network connections on a system?",
+    "options": ["ping", "ipconfig", "netstat", "nslookup"],
+    "answer": "netstat"
+  },
+  {
+    "question": "Which topology offers the highest fault tolerance?",
+    "options": ["Mesh", "Star", "Ring", "Bus"],
+    "answer": "Mesh"
+  },
+  {
+    "question": "Which command is used to display IP address configuration on Windows?",
+    "options": ["ipconfig", "ifconfig", "ping", "traceroute"],
+    "answer": "ipconfig"
+  },
+  {
+    "question": "Which port number is used by HTTPS?",
+    "options": ["80", "21", "443", "23"],
+    "answer": "443"
+  },
+  {
+    "question": "Which device helps reduce broadcast traffic in a network?",
+    "options": ["Switch", "Router", "Repeater", "Hub"],
+    "answer": "Router"
+  }
+]

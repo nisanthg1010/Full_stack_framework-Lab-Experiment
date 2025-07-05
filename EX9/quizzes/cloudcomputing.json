@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the main advantage of cloud computing?",
+    "options": ["Manual backups", "Scalability and flexibility", "Expensive infrastructure", "Slow deployment"],
+    "answer": "Scalability and flexibility"
+  },
+  {
+    "question": "Which of these is a type of cloud deployment model?",
+    "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which service model offers virtual machines and storage over the internet?",
+    "options": ["IaaS", "PaaS", "SaaS", "DaaS"],
+    "answer": "IaaS"
+  },
+  {
+    "question": "Which service model allows users to run applications without managing the underlying infrastructure?",
+    "options": ["IaaS", "PaaS", "SaaS", "CaaS"],
+    "answer": "PaaS"
+  },
+  {
+    "question": "Which of these is NOT a popular cloud service provider?",
+    "options": ["AWS", "Azure", "Google Cloud", "Oracle Forms"],
+    "answer": "Oracle Forms"
+  },
+  {
+    "question": "Which technology enables resource pooling in cloud computing?",
+    "options": ["Virtualization", "Manual Networking", "Private Networking", "Analog Systems"],
+    "answer": "Virtualization"
+  },
+  {
+    "question": "Which model provides software applications over the internet on a subscription basis?",
+    "options": ["IaaS", "PaaS", "SaaS", "CaaS"],
+    "answer": "SaaS"
+  },
+  {
+    "question": "What is the full form of AWS?",
+    "options": ["Advanced Web Services", "Amazon Web Services", "Azure Web System", "Application Web Server"],
+    "answer": "Amazon Web Services"
+  },
+  {
+    "question": "Which term describes on-demand delivery of IT resources via the internet?",
+    "options": ["Grid Computing", "Cloud Computing", "Traditional Hosting", "Distributed Systems"],
+    "answer": "Cloud Computing"
+  },
+  {
+    "question": "Which cloud computing feature allows you to increase or decrease resources based on demand?",
+    "options": ["Scalability", "Latency", "Security", "Complexity"],
+    "answer": "Scalability"
+  },
+  {
+    "question": "Which cloud type is shared among several organizations with similar needs?",
+    "options": ["Private Cloud", "Community Cloud", "Public Cloud", "Hybrid Cloud"],
+    "answer": "Community Cloud"
+  },
+  {
+    "question": "Which service helps store files in the cloud and access them from anywhere?",
+    "options": ["Dropbox", "Google Drive", "OneDrive", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of cloud computing?",
+    "options": ["Lower costs", "High latency", "Flexibility", "Disaster recovery"],
+    "answer": "High latency"
+  },
+  {
+    "question": "Which security practice ensures data is converted into unreadable form in cloud storage?",
+    "options": ["Decryption", "Compression", "Encryption", "Backups"],
+    "answer": "Encryption"
+  },
+  {
+    "question": "Which Azure service is used to deploy virtual machines?",
+    "options": ["Azure VM", "Azure Blob", "Azure CDN", "Azure CosmosDB"],
+    "answer": "Azure VM"
+  },
+  {
+    "question": "What does 'multi-tenancy' mean in cloud computing?",
+    "options": ["Multiple users share the same resources", "Dedicated hardware for each user", "Offline storage", "Manual updates"],
+    "answer": "Multiple users share the same resources"
+  },
+  {
+    "question": "Which cloud deployment model combines public and private clouds?",
+    "options": ["Hybrid Cloud", "Community Cloud", "Public Cloud", "Grid Cloud"],
+    "answer": "Hybrid Cloud"
+  },
+  {
+    "question": "Which of these is a storage service provided by AWS?",
+    "options": ["Amazon EC2", "Amazon S3", "Amazon Lambda", "Amazon RDS"],
+    "answer": "Amazon S3"
+  },
+  {
+    "question": "Which cloud concept involves scaling up or down based on system load?",
+    "options": ["Elasticity", "Latency", "Capacity Planning", "Deployment"],
+    "answer": "Elasticity"
+  },
+  {
+    "question": "Which service offers container orchestration in the cloud?",
+    "options": ["Kubernetes", "Azure CDN", "AWS S3", "CloudFront"],
+    "answer": "Kubernetes"
+  }
+]

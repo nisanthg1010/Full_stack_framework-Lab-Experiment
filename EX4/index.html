@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html ng-app="counterApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart AngularJS Counter</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #c3ec52 0%, #0ba29d 100%);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #1a1a1a;
+      border-radius: 15px;
+      padding: 40px 30px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #ffd700;
+    }
+
+    .counter-value {
+      font-size: 48px;
+      margin: 20px 0;
+      color: #00e676;
+      font-weight: bold;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #00e676;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    .label {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body ng-controller="CounterController">
+
+  <div class="container">
+    <h1>🎙️ Smart Counter with Voice</h1>
+
+    <div class="counter-value">{{ count }}</div>
+
+    <div class="btn-group">
+      <button ng-click="changeCount(1)">➕ Increase</button>
+      <button ng-click="changeCount(-1)">➖ Decrease</button>
+      <button ng-click="changeCount(2)">✌️ Double</button>
+      <button ng-click="random()">🎲 Random</button>
+      <button ng-click="reset()">🔁 Reset</button>
+    </div>
+
+    <div class="label">Voice will announce count updates 📢</div>
+  </div>
+
+  <script>
+    const app = angular.module('counterApp', []);
+    app.controller('CounterController', function($scope) {
+      $scope.count = 0;
+
+      function speak(text) {
+        const speech = new SpeechSynthesisUtterance(text);
+        speech.lang = 'en-US';
+        speech.pitch = 1;
+        speech.rate = 1;
+        window.speechSynthesis.cancel();  // cancel ongoing speech
+        window.speechSynthesis.speak(speech);
+      }
+
+      $scope.changeCount = function(amount, source = '') {
+        $scope.count += amount;
+
+        let message = '';
+        if (source === 'random') {
+          message = `Nisanth random increased by ${amount}`;
+        } else if (amount > 0) {
+          message = `Nisanth has increased by ${amount}`;
+        } else if (amount < 0) {
+          message = `NG has decreased by ${Math.abs(amount)}`;
+        }
+
+        message += `. Current value is ${$scope.count}`;
+        speak(message);
+      };
+
+      $scope.random = function() {
+        const rand = Math.floor(Math.random() * 5 + 1);
+        $scope.changeCount(rand, 'random');
+      };
+
+      $scope.reset = function() {
+        $scope.count = 0;
+        speak('NG counter has been reset to zero');
+      };
+    });
+  </script>
+
+</body>
+</html>

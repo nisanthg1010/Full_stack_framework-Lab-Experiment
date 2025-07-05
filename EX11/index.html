@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="calcApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="CalcController">
+  <div class="mobile-frame">
+    <div class="display">
+      <div class="expression">{{ expression || '0' }}</div>
+      <div class="result">{{ result }}</div>
+    </div>
+
+    <div class="keypad">
+      <!-- Scientific Buttons -->
+      <button ng-click="append('Math.sin(')">sin</button>
+      <button ng-click="append('Math.cos(')">cos</button>
+      <button ng-click="append('Math.tan(')">tan</button>
+      <button ng-click="append('Math.sqrt(')">√</button>
+
+      <!-- Basic Operators -->
+      <button ng-click="append('7')">7</button>
+      <button ng-click="append('8')">8</button>
+      <button ng-click="append('9')">9</button>
+      <button ng-click="append('/')">÷</button>
+
+      <button ng-click="append('4')">4</button>
+      <button ng-click="append('5')">5</button>
+      <button ng-click="append('6')">6</button>
+      <button ng-click="append('*')">×</button>
+
+      <button ng-click="append('1')">1</button>
+      <button ng-click="append('2')">2</button>
+      <button ng-click="append('3')">3</button>
+      <button ng-click="append('-')">−</button>
+
+      <button ng-click="append('0')">0</button>
+      <button ng-click="append('.')">.</button>
+      <button ng-click="append('+')">+</button>
+      <button ng-click="evaluate()">=</button>
+
+      <button class="clear" ng-click="clear()">C</button>
+      <button class="back" ng-click="backspace()">←</button>
+      <button ng-click="append('**')">^</button>
+      <button ng-click="append(')')">)</button>
+    </div>
+  </div>
+</body>
+</html>

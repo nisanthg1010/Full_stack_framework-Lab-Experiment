@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Deep Learning primarily based on?",
+    "options": ["Decision Trees", "Artificial Neural Networks", "Linear Regression", "Naive Bayes"],
+    "answer": "Artificial Neural Networks"
+  },
+  {
+    "question": "Which of these is a type of neural network?",
+    "options": ["CNN", "SVM", "KNN", "Random Forest"],
+    "answer": "CNN"
+  },
+  {
+    "question": "Which layer in a neural network receives the input data?",
+    "options": ["Hidden Layer", "Input Layer", "Output Layer", "Processing Layer"],
+    "answer": "Input Layer"
+  },
+  {
+    "question": "Which activation function outputs values between 0 and 1?",
+    "options": ["ReLU", "Sigmoid", "Tanh", "Softmax"],
+    "answer": "Sigmoid"
+  },
+  {
+    "question": "Which library is widely used for deep learning in Python?",
+    "options": ["TensorFlow", "NumPy", "Pandas", "Matplotlib"],
+    "answer": "TensorFlow"
+  },
+  {
+    "question": "What does CNN stand for?",
+    "options": ["Convolutional Neural Network", "Central Neural Network", "Conditional Network", "Cyclic Neural Network"],
+    "answer": "Convolutional Neural Network"
+  },
+  {
+    "question": "Which type of neural network is used for sequence prediction?",
+    "options": ["CNN", "RNN", "DNN", "ANN"],
+    "answer": "RNN"
+  },
+  {
+    "question": "Which of these optimizers is commonly used in deep learning?",
+    "options": ["Adam", "GradientDescent", "RMSprop", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which layer type reduces the size of feature maps in CNN?",
+    "options": ["Dense Layer", "Pooling Layer", "Flatten Layer", "Input Layer"],
+    "answer": "Pooling Layer"
+  },
+  {
+    "question": "Which function is typically used for multi-class classification output?",
+    "options": ["Sigmoid", "ReLU", "Softmax", "Linear"],
+    "answer": "Softmax"
+  },
+  {
+    "question": "Which technique is used to prevent overfitting in deep learning models?",
+    "options": ["Dropout", "Feature Scaling", "Data Augmentation", "Both A and C"],
+    "answer": "Both A and C"
+  },
+  {
+    "question": "Which type of data is Convolutional Neural Networks best suited for?",
+    "options": ["Tabular Data", "Images", "Text Documents", "Time Series"],
+    "answer": "Images"
+  },
+  {
+    "question": "What is the process of feeding output back into the network in RNN called?",
+    "options": ["Backpropagation", "Feed Forward", "Feedback Loop", "Recurrent Connection"],
+    "answer": "Recurrent Connection"
+  },
+  {
+    "question": "Which library provides the Keras high-level API for deep learning?",
+    "options": ["TensorFlow", "Matplotlib", "NumPy", "OpenCV"],
+    "answer": "TensorFlow"
+  },
+  {
+    "question": "What is the purpose of an activation function?",
+    "options": ["Add non-linearity", "Speed up training", "Reduce overfitting", "Convert input to binary"],
+    "answer": "Add non-linearity"
+  },
+  {
+    "question": "Which algorithm adjusts weights in a neural network?",
+    "options": ["Backpropagation", "Forward Propagation", "Batch Normalization", "Pooling"],
+    "answer": "Backpropagation"
+  },
+  {
+    "question": "What is the primary goal of a loss function?",
+    "options": ["Increase accuracy", "Measure error", "Prevent overfitting", "Train faster"],
+    "answer": "Measure error"
+  },
+  {
+    "question": "Which technique combines multiple models to improve accuracy?",
+    "options": ["Dropout", "Ensembling", "Regularization", "Padding"],
+    "answer": "Ensembling"
+  },
+  {
+    "question": "Which type of neural network connects every neuron from one layer to the next?",
+    "options": ["Fully Connected Network", "Convolutional Network", "Recurrent Network", "Sparse Network"],
+    "answer": "Fully Connected Network"
+  },
+  {
+    "question": "Which method is used to reduce training time for large deep learning models?",
+    "options": ["Parallel Training", "Batch Training", "Transfer Learning", "All of the above"],
+    "answer": "All of the above"
+  }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function validateForm() {
+      var phone = document.forms["regForm"]["phone"].value;
+      if (phone.length != 10 || isNaN(phone)) {
+        alert("Contact must be 10 digits.");
+        return false;
+      }
+      var password = document.forms["regForm"]["password"].value;
+      if (password.length < 6) {
+        alert("Password min 6 chars.");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Interview Candidate Registration</h2>
+    <form name="regForm" action="/submit" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+      <div class="form-group"><label>Name:</label><input type="text" name="name" required></div>
+      <div class="form-group"><label>Roll No:</label><input type="text" name="rollno" required></div>
+      <div class="form-group"><label>Contact No:</label><input type="text" name="phone" required></div>
+      <div class="form-group"><label>Email:</label><input type="email" name="email" required></div>
+      <div class="form-group"><label>Password:</label><input type="password" name="password" required></div>
+      <div class="form-group"><label>Resume:</label><input type="file" name="resume" required></div>
+      <div class="form-group"><label>Profile Photo:</label><input type="file" name="photo" required></div>
+      <div class="form-group"><label>Favourite Color:</label><input type="color" name="favColor"></div>
+      <button type="submit">Register Now</button>
+    </form>
+  </div>
+</body>
+</html>

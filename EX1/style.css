@@ -1,0 +1,149 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.category-title {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Product Grid */
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Product Card Styling */
+.product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #ccc;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+/* Modal Overlay */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Modal Box Styling */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Modal Image Styling */
+.modal-content img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Modal Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+/* Modal Text Styling */
+.modal-content h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.modal-content p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.modal-content strong {
+    color: #222;
+}
+.map-frame {
+    width: 90%;
+    height: 250px;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    border: 0;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+}

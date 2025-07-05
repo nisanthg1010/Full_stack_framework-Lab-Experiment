@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does DBMS stand for?",
+    "options": ["Database Management System", "Data Block Main System", "Digital Backup Main Service", "None of the above"],
+    "answer": "Database Management System"
+  },
+  {
+    "question": "Which of the following is NOT a type of DBMS?",
+    "options": ["Hierarchical", "Network", "Relational", "Compiler-based"],
+    "answer": "Compiler-based"
+  },
+  {
+    "question": "Which language is used to define the structure of a database schema?",
+    "options": ["DML", "DDL", "DCL", "TCL"],
+    "answer": "DDL"
+  },
+  {
+    "question": "Which of the following is a DML command?",
+    "options": ["INSERT", "CREATE", "GRANT", "REVOKE"],
+    "answer": "INSERT"
+  },
+  {
+    "question": "In a relational DBMS, data is stored in the form of?",
+    "options": ["Files", "Tables", "Clusters", "Arrays"],
+    "answer": "Tables"
+  },
+  {
+    "question": "Which key uniquely identifies each record in a database table?",
+    "options": ["Foreign Key", "Candidate Key", "Primary Key", "Composite Key"],
+    "answer": "Primary Key"
+  },
+  {
+    "question": "Which SQL command is used to remove a record from a table?",
+    "options": ["DELETE", "DROP", "REMOVE", "ERASE"],
+    "answer": "DELETE"
+  },
+  {
+    "question": "Which of these is a property of a transaction in DBMS?",
+    "options": ["Atomicity", "Flexibility", "Elasticity", "Volatility"],
+    "answer": "Atomicity"
+  },
+  {
+    "question": "Which operation combines rows from two or more tables based on a related column?",
+    "options": ["Union", "Join", "Intersect", "Difference"],
+    "answer": "Join"
+  },
+  {
+    "question": "Which of the following is a valid SQL constraint?",
+    "options": ["LIMIT", "CHECK", "DEFAULT", "Both B and C"],
+    "answer": "Both B and C"
+  },
+  {
+    "question": "Which model organizes data into tree-like structures?",
+    "options": ["Hierarchical Model", "Relational Model", "Network Model", "Object-oriented Model"],
+    "answer": "Hierarchical Model"
+  },
+  {
+    "question": "Which database language is used to control access to data?",
+    "options": ["DDL", "DML", "DCL", "TCL"],
+    "answer": "DCL"
+  },
+  {
+    "question": "Which term refers to duplicate data in a database?",
+    "options": ["Data Consistency", "Data Redundancy", "Data Integrity", "Data Mining"],
+    "answer": "Data Redundancy"
+  },
+  {
+    "question": "Which of these ensures accuracy and consistency of data in a database?",
+    "options": ["Data Integrity", "Data Redundancy", "Data Mining", "Data Dictionary"],
+    "answer": "Data Integrity"
+  },
+  {
+    "question": "Which of the following statements is used to modify records in a table?",
+    "options": ["UPDATE", "ALTER", "MODIFY", "CHANGE"],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "Which clause is used to filter records in SQL?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "Which of the following is NOT an aggregate function in SQL?",
+    "options": ["SUM()", "COUNT()", "AVERAGE()", "MAX()"],
+    "answer": "AVERAGE()"
+  },
+  {
+    "question": "Which concept ensures that a set of transactions execute without interfering with each other?",
+    "options": ["Concurrency Control", "Deadlock", "Locking", "Rollback"],
+    "answer": "Concurrency Control"
+  },
+  {
+    "question": "Which database object holds precompiled SQL statements for repeated use?",
+    "options": ["Index", "Stored Procedure", "Trigger", "Cursor"],
+    "answer": "Stored Procedure"
+  },
+  {
+    "question": "Which SQL command is used to permanently remove a table from a database?",
+    "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+    "answer": "DROP"
+  }
+]
